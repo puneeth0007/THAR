@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THAR — Born Unstoppable | Mahindra</title>
+  <meta name="description" content="Experience the Mahindra Thar. A scroll-driven cinematic journey through design, power, colour, and interior." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">THAR</a>
+      <ul class="nav-links">
+        <li><a href="#section-orbit">Design</a></li>
+        <li><a href="#section-engine">Power</a></li>
+        <li><a href="#section-colour">Colour</a></li>
+        <li><a href="#section-interior">Interior</a></li>
+      </ul>
+      <a href="#section-finale" class="nav-btn">Book Drive</a>
+    </div>
+  </nav>
+
+  <!-- Scroll Progress Bar -->
+  <div id="progress-bar"><div id="progress-fill"></div></div>
+
+  <!-- ══════════════════ 0. HERO ══════════════════ -->
+  <section id="hero" class="sec-hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <span class="badge">MAHINDRA</span>
+      <h1>
+        <span class="t-light">BORN</span>
+        <span class="t-fire">UNSTOPPABLE</span>
+      </h1>
+      <p>A legend reborn. Every curve sculpted for conquest. Every bolt engineered for the untamed.</p>
+      <a href="#section-orbit" class="btn-primary">
+        <span>Begin Experience</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </a>
+      <div class="scroll-cue">
+        <div class="cue-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ 1. ORBITING VIDEO (Design) ══════════════════ -->
+  <section id="section-orbit" class="sec-scrub">
+    <div class="scrub-sticky">
+      <video class="scrub-video" id="video-orbit" muted playsinline preload="auto">
+        <source src="orbit.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay"></div>
+      <div class="sec-content">
+        <div class="tag"><span class="num">01</span><span class="line"></span><span>DESIGN LANGUAGE</span></div>
+        <h2>Sculpted by<br/><span class="grad-white">Defiance</span></h2>
+        <p>
+          Every angle of the Thar is a statement of rebellion. The bold, upright stance, 
+          muscular wheel arches, and iconic seven-slat grille converge into a silhouette 
+          that commands attention anywhere.
+        </p>
+        <div class="stats">
+          <div class="st"><span class="val">4395<small>mm</small></span><span class="lbl">Length</span></div>
+          <div class="st"><span class="val">1855<small>mm</small></span><span class="lbl">Width</span></div>
+          <div class="st"><span class="val">226<small>mm</small></span><span class="lbl">Clearance</span></div>
+        </div>
+      </div>
+      <div class="scrub-ring">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20"/><circle cx="22" cy="22" r="20" class="ring-fill"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ 2. ENGINE VIDEO (Power) ══════════════════ -->
+  <section id="section-engine" class="sec-scrub">
+    <div class="scrub-sticky">
+      <video class="scrub-video" id="video-engine" muted playsinline preload="auto">
+        <source src="engine.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay overlay-fire"></div>
+      <div class="sec-content">
+        <div class="tag"><span class="num">02</span><span class="line"></span><span>RAW POWER</span></div>
+        <h2>Heart of a<br/><span class="grad-fire">Beast</span></h2>
+        <p>
+          Under the hood lies a powerplant engineered for absolute domination. 
+          The mStallion Turbo-Petrol and mHawk Diesel engines deliver massive torque 
+          that turns impossible trails into smooth playgrounds.
+        </p>
+        <div class="stats">
+          <div class="st"><span class="val">152<small>PS</small></span><span class="lbl">Max Power</span></div>
+          <div class="st"><span class="val">300<small>Nm</small></span><span class="lbl">Peak Torque</span></div>
+          <div class="st"><span class="val">4×4</span><span class="lbl">Drivetrain</span></div>
+        </div>
+      </div>
+      <div class="scrub-ring">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20"/><circle cx="22" cy="22" r="20" class="ring-fill"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ 3. COLOUR VIDEO (Palette) ══════════════════ -->
+  <section id="section-colour" class="sec-scrub">
+    <div class="scrub-sticky">
+      <video class="scrub-video" id="video-colour" muted playsinline preload="auto">
+        <source src="colour.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay overlay-spectrum"></div>
+      <div class="sec-content">
+        <div class="tag"><span class="num">03</span><span class="line"></span><span>COLOUR PALETTE</span></div>
+        <h2>Wear Your<br/><span class="grad-spectrum">Identity</span></h2>
+        <p>
+          From Stealth Grey to Red Rage, the Thar's colour palette is curated to amplify 
+          its commanding presence wherever you travel.
+        </p>
+        <div class="swatches">
+          <div class="sw" style="--c:#1c1d21" title="Galaxy Grey"></div>
+          <div class="sw" style="--c:#b91c1c" title="Red Rage"></div>
+          <div class="sw" style="--c:#f3f4f6" title="Everest White"></div>
+          <div class="sw" style="--c:#143628" title="Deep Forest"></div>
+          <div class="sw" style="--c:#0f172a" title="Napoli Black"></div>
+        </div>
+      </div>
+      <div class="scrub-ring">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20"/><circle cx="22" cy="22" r="20" class="ring-fill"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ 4. INTERIOR VIDEO (Cockpit) ══════════════════ -->
+  <section id="section-interior" class="sec-scrub">
+    <div class="scrub-sticky">
+      <video class="scrub-video" id="video-interior" muted playsinline preload="auto">
+        <source src="interior.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay overlay-gold"></div>
+      <div class="sec-content">
+        <div class="tag"><span class="num">04</span><span class="line"></span><span>THE COCKPIT</span></div>
+        <h2>Refined<br/><span class="grad-gold">Ruggedness</span></h2>
+        <p>
+          Discover a cabin built for adventure. Premium seats, touchscreen infotainment 
+          with AdrenoX, Harman Kardon sound, and drizzle-resistant controls deliver 
+          unmatched comfort.
+        </p>
+        <div class="stats">
+          <div class="st"><span class="val">17.78<small>cm</small></span><span class="lbl">Touchscreen</span></div>
+          <div class="st"><span class="val">9</span><span class="lbl">Speakers</span></div>
+          <div class="st"><span class="val">6</span><span class="lbl">Airbags</span></div>
+        </div>
+      </div>
+      <div class="scrub-ring">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20"/><circle cx="22" cy="22" r="20" class="ring-fill"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ 5. FINALE ══════════════════ -->
+  <section id="section-finale" class="sec-finale">
+    <div class="finale-glow"></div>
+    <div class="finale-inner">
+      <span class="chip">THE LEGEND CONTINUES</span>
+      <h2>Ready to<br/><span class="grad-fire">Conquer?</span></h2>
+      <p>The road is just the beginning. The Mahindra Thar was built for what lies beyond.</p>
+      <div class="actions">
+        <a href="#" class="btn-primary btn-lg">Book a Test Drive</a>
+        <a href="#" class="btn-outline">Configure Yours</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="brand">
+        <span class="logo">THAR</span>
+        <p>Born Unstoppable</p>
+      </div>
+      <div class="links">
+        <div class="col">
+          <h4>Explore</h4>
+          <a href="#section-orbit">Overview</a>
+          <a href="#section-engine">Specifications</a>
+          <a href="#section-colour">Gallery</a>
+        </div>
+        <div class="col">
+          <h4>Ownership</h4>
+          <a href="#">Book Online</a>
+          <a href="#">Locate Dealer</a>
+          <a href="#">Service</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Mahindra & Mahindra Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="custom-thar-badge">
+    <img src="CAR.jpg" alt="Thar Legend" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
